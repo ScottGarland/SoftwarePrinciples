@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe43afaa-38c3-4d5c-bcd2-cd29caf796f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/ScottGarland/SoftwarePrinciples/StoreView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ScottGarland/SoftwarePrinciples/StoreView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +58,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="760" y="274" key="SettingsEditor/2560.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584576033104" />
-    <state x="3292" y="749" key="com.intellij.ide.util.TipDialog" timestamp="1584594044386">
+    <state x="3292" y="749" key="com.intellij.ide.util.TipDialog" timestamp="1584594164816">
       <screen x="2560" y="360" width="1920" height="1040" />
     </state>
     <state x="976" y="524" key="com.intellij.ide.util.TipDialog/2560.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584576151105" />
-    <state x="3292" y="749" key="com.intellij.ide.util.TipDialog/2560.360.1920.1040/0.0.2560.1400@2560.360.1920.1040" timestamp="1584594044386" />
+    <state x="3292" y="749" key="com.intellij.ide.util.TipDialog/2560.360.1920.1040/0.0.2560.1400@2560.360.1920.1040" timestamp="1584594164816" />
     <state x="662" y="320" key="new project wizard" timestamp="1584576079548">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

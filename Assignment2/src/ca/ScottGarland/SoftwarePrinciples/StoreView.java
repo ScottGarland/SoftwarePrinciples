@@ -14,34 +14,34 @@ public class StoreView {
 	Iterator<Customer> iter;
 	JFrame frame = new JFrame("Assignment 2");
 	
-	public void printStoreDetails(Store store){
+	public void printStoreDetails(Store store) {
 		System.out.println("Store: ");
 		System.out.println("Name: " + store.getName());
 
 		// Displaying the customer list
-	    // Create an iterator for the list using iterator() method
+		// Create an iterator for the list using iterator() method
 		customerList = store.getCustomers();
 		iter = customerList.iterator();
 
-        // Displaying the values after iterating through the list
-        System.out.println("\nThe Customer names are:");
-        while (iter.hasNext()) { 
-            System.out.println(iter.next().getName() + " "); 
-        }
+		// Displaying the values after iterating through the list
+		System.out.println("\nThe Customer names are:");
+		while (iter.hasNext()) {
+			System.out.println(iter.next().getName() + " "); 
+		}
 
-        //New line for formatting
-        System.out.println();
+		//New line for formatting
+		System.out.println();
 
-        // Setting up the frame and the canvas for drawing the GUI
-        Canvas can = new Sketch(customerList);
-        can.setSize(500,500);
-        frame.setSize(500,500);
-        frame.add(can);
-        frame.pack();
-        frame.setResizable(false);
-        frame.setVisible(true);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        can.repaint();
+		// Setting up the frame and the canvas for drawing the GUI
+		Canvas can = new Sketch(customerList);
+		can.setSize(500,500);
+		frame.setSize(500,500);
+		frame.add(can);
+		frame.pack();
+		frame.setResizable(false);
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		can.repaint();
 	}
 
 	// Class for the GUI implementation
