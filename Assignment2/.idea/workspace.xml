@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe43afaa-38c3-4d5c-bcd2-cd29caf796f4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/ScottGarland/SoftwarePrinciples/StoreView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ScottGarland/SoftwarePrinciples/StoreView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
