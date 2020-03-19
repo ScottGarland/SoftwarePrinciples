@@ -12,7 +12,7 @@ public class StoreView {
 	String name;
 	ArrayList<Customer> customerList;
 	Iterator<Customer> iter;
-	JFrame fr = new JFrame("Assignment 2");
+	JFrame frame = new JFrame("Assignment 2");
 	
 	public void printStoreDetails(Store store){
 		System.out.println("Store: ");
@@ -35,11 +35,12 @@ public class StoreView {
         // Setting up the frame and the canvas for drawing the GUI
         Canvas can = new Sketch(customerList);
         can.setSize(500,500);
-        fr.setSize(500,500);
-        fr.add(can);
-        fr.pack();
-		fr.setResizable(false);
-        fr.setVisible(true);
+        frame.setSize(500,500);
+		frame.add(can);
+		frame.pack();
+		frame.setResizable(false);
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         can.repaint();
 	}
 
@@ -54,12 +55,19 @@ public class StoreView {
 		// JTextField in order to add desired functionality
 		@Override
 		public void paint(Graphics graphics) {
+			int y = 150;
 			super.paint(graphics);
+			graphics.setColor(Color.WHITE);
+			graphics.fillRect(0,0,500,500);
+			graphics.setColor(Color.BLACK);
+			graphics.setFont(new Font("Arial", Font.BOLD, 18));
 
+			// for loop to draw the string to the GUI, incrementing the value of y after each iteration
+			for (int i = 0; i < customers.size(); i++) {
+				graphics.drawString("", 175, y);
+				y += 25;
+			}
 		}
-
 	}
-
-
 }
 
