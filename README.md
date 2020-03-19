@@ -1,5 +1,8 @@
 # SoftwarePrinciples
 
+Ontario Tech University
+SOFE 2720 - Principle of Software and Requirements Engineering
+
 Question 2 of Assignment 2
 
 "For the in-class Activity 7 you added to the Caldera architecture the MVC components required for the user to interact with the system. In this programming assignment you will program an MVC architectural design following an Observer pattern so that the View can receive the notifications from the updated Model. 
