@@ -36,11 +36,11 @@ public class StoreView {
         Canvas can = new Sketch(customerList);
         can.setSize(500,500);
         frame.setSize(500,500);
-		frame.add(can);
-		frame.pack();
-		frame.setResizable(false);
-		frame.setVisible(true);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.add(can);
+        frame.pack();
+        frame.setResizable(false);
+        frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         can.repaint();
 	}
 
